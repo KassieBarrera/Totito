@@ -13,7 +13,7 @@ open class MainActivity : AppCompatActivity() {
 
     var jugador1 = ArrayList<Int>()
     var jugador2 = ArrayList<Int>()
-    var jugador_activo = 1
+    var jugador_activo = 1   //El turno
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
